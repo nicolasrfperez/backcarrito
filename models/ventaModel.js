@@ -9,6 +9,6 @@ const ventaSchema = new mongoose.Schema({
     type: Number,
         require: true,
     },
-    fech:Date,
+    fecha:Date,
 })
 module.exports = mongoose.model("venta", ventaSchema)

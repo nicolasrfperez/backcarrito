@@ -29,7 +29,7 @@ app.use('/users', usersRouter);
 //app.use('/productos',validateUser, productosRouter);
 app.use('/productos', productosRouter);
 app.use('/venta', ventaRouter);
-app.use('/category', ventaRouter);
+app.use('/category', categoriesRouter);
 
 
 function validateUser(req,res,next){
